@@ -1,0 +1,11 @@
+/home/beverly/Documents/klee-n-aeg/build/runtime/runtime_build_Debug+Asserts/POSIX/klee_init_env.bc: \
+  /home/beverly/Documents/klee-n-aeg/runtime/POSIX/klee_init_env.c \
+  /home/beverly/Documents/klee-n-aeg/include/klee/klee.h \
+  /home/beverly/Documents/klee-n-aeg/runtime/POSIX/fd.h \
+  /home/beverly/Documents/klee-n-aeg/build/include/klee/Config/config.h
+
+/home/beverly/Documents/klee-n-aeg/include/klee/klee.h:
+
+/home/beverly/Documents/klee-n-aeg/runtime/POSIX/fd.h:
+
+/home/beverly/Documents/klee-n-aeg/build/include/klee/Config/config.h:

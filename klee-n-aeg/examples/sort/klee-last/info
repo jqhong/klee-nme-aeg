@@ -1,0 +1,22 @@
+../../../klee-build/bin/klee sort.bc
+PID: 23629
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2020-09-09 17:01:46
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2020-09-09 17:01:46
+Elapsed: 00:00:00
+KLEE: done: explored paths = 1
+KLEE: done: avg. constructs per query = 7
+KLEE: done: total queries = 2
+KLEE: done: valid queries = 0
+KLEE: done: invalid queries = 2
+KLEE: done: query cex = 2
+
+KLEE: done: total instructions = 295
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1

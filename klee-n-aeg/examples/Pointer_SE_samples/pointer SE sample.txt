@@ -1,0 +1,230 @@
+# Example 1
+Start with an empty M, perform SE:
+1: void bomb(char* a, char* b, char i, char j, char x) {
+2:  char f;
+3:  a[i] = x;
+4:  if(b[j] == x)
+5:    f = 1;
+6:  else
+7:    f = 0;
+8:  assert(!f); // fail when f==1
+}
+// the failure happens if b[j] == x; how to set the input a, b, i, j, x so that b[j]==x is true?
+- b[j]=x 
+- a+i=b+j
+- a=b /\ i=j  or a=j /\ b=i
+
+# Symbols:
+S=(M, C), program state, after each program point. Sometime need to differentiate program state before and after the point; then, use S_b=(M_b, C_b) to indicate the state before the point.
+M=(V, A, P)
+V: expr -> value of the expr (symbolic or concrete)
+P: expr -> value at the address represented by the value of the expr (symbolic or concrete)
+A: var -> address of the variable (symbolic or concrete)
+
+C=a conjunction of path conditions
+cond: expr (= | != | < | <= | ...) expr 
+expr: var | A(var) | expr | expr (+|-|*|/) expr | ite(cond, expr1, expr2) | function(expr)
+function: a set of (known) operations on expr
+M[x:=y] means to replace the mapping of x in M with x:=y.
+
+## what assumptions?
+- each declared variable is at a different address ( e.g., A(a)!=A(i)!=A(j) )
+- memory accesses all happen through explicit instructions in the program
+- A(...) operation is only applicable to named variables
+- any address space 0x00000000 - 0xFFFFFFFF?
+- what properties to analyze?
+
+# Model 1: Symbolize pointer values:
+
+## generate constraints along CFG:
+1: M1:=[V(a):=a, V(b):=b, V(i):=i, V(j):=j, V(x):=x], C1:=\emptyset   // V(...) symbolic or concrete based on analysis users; doesn't model P(expr) or A(...) if not used in code or not told by users. 
+2: M2:=M1[V(f):=0]  // model uninitialized variable as concrete 0.
+   // May model it as a random value depending on the concrete execution;
+   // or model it as symbolic, if uninitialized variables are a concern of the analysis;
+3: M3:=M2[P(a+i):=x]  // P(a+i) is equal to P(V(a+i)) and P(V(a)+V(i)); x is equal to V(x)
+   // this is a simple model for assignment; more comprehensive one needs to enumerate the result of a+i (see below)
+4: lead to changes of (M, C) (fork M for dynamic SE; or keep them joint via ite expressions for static SE)
+5:   C5:=C1/\{P(b+j)=x} = {P(b+j)=x}
+     M5:=M3[V(f):=1]
+       // this is a simple model for assignment;
+7:   C7:=C1{P(b+j)!=x} = {P(b+j)!=x}
+     M7:=M3[V(f):=0]
+8 (before):
+   C8b:=merge(C5, C7)=C1=\emptyset    // merge (M5, C5) and (M7, C7) via ite; "merge" can be challenging if C5 and C7 differ a lot;
+   M8b:=ite({P(b+j)=x}, M5, M7)
+   // or:
+   M8b:=ite(C5, M5, ite(C7, M7, \top))  // \top means anything
+     // <- this is easier for constraint generation, but may be harder for the constraint solver.
+   // or only keep one of M5 and M7 for M8b during dynamic SE; i.e., explore the different states on different paths separately, so as to simplify constraints in each run.
+     // i.e., let (M8b, C8b):=(M5, C5) and continue first
+     // next run, explore (M8b, C8b):=(M7, C7)
+8 (after): treat assert similar to if-condition
+   // using ite: C8:=C8b=\emptyset, M8:=ite({V(f)!=0}, M8b[crash], M8b)
+   // or, separate the two states:
+       C8:=C8b/\{V(f)!=0} = {V(f)!=0}, M8:=M8b[crash]
+       C8:=C8b/\{V(f)=0} = {V(f)=0}, M8:=M8b
+   // Since we know [crash] is what we want, so we only keep during the SE:
+   C8:={V(f)!=0}, M8:=M8b[crash]
+
+## solve the constraints:
+Now, we need to solve the constraints generated during the SE to identify the conditions that lead to the wanted M, and generate test cases that satisfy the conditions.
+
+In this case, we want to reach S8=(M8:=M8b[crash], C8:={V(f)!=0}).
+
+To spell out the M8 and C8:
+  M8:=M[V(a):=a, V(b):=b, V(i):=i, V(j):=j, V(x):=x, V(f):=0, P(a+i):=x, ite({P(b+j)=x}, V(f):=1, ite({P(b+j)!=x}, V(f):=0, \top))]  // order of the assignments above matters; later ones overwrite previous ones;
+  C8:={V(f)!=0}
+Transform them to (under the simple model for assignment, assuming assignment target addresses are differentiated by expression syntax only):
+  V(a)=a /\ V(b)=b /\ V(i)=i /\ V(j)=j /\ V(x)=x /\ P(a+i)=x /\ (P(b+j)=x -> V(f)=1) /\ (P(b+j)!=x -> V(f)=0) /\ V(f)!=0
+
+To solve it, the solver would notice that:
+ (1) P(b+j)=x should be true. 
+ (2) and P(a+i)=P(b+j)=x
+(1) => *(b+j=x) as an input condition;
+(2) the solver can often assume that a special solution for P(a)=P(b) is a=b; so, we get a+i=b+j as another input condition;
+  the solver often knows a special solution for a+i=b+j is a=b/\i=j or a=i/\b=j; so, we can get more input conditions.
+
+
+# Model 2: Symbolize other types of values, but concrete pointer values (points-to values P(...) are still symbolic):
+
+1: M1:=[V(a):=ca, V(b):=cb, V(i):=i, V(j):=j, V(x):=x], C1:=\emptyset   // ca cb indicates some concrete value during runtime. 
+2: M2:=M1[V(f):=0]  
+3: M3:=M2[P(ca+i):=x] 
+4: lead to changes of (M, C)
+5:   C5:=C1/\{P(cb+j)=x} = {P(cb+j)=x}
+     M5:=M3[V(f):=1]
+7:   C7:=C1{P(cb+j)!=x} = {P(cb+j)!=x}
+     M7:=M3[V(f):=0]
+8 (before):
+   M8b:=ite(C5, M5, ite(C7, M7, \top))
+8 (after):
+   C8:={V(f)!=0}, M8:=M8b[crash]  // crash is what we want
+
+To spell out the M8 and C8:
+  M8:=M[V(a):=ca, V(b):=cb, V(i):=i, V(j):=j, V(x):=x, V(f):=0, P(ca+i):=x, ite({P(cb+j)=x}, V(f):=1, ite({P(cb+j)!=x}, V(f):=0, \top))]  // order of the assignments above matters; later ones overwrite previous ones;
+  C8:={V(f)!=0}
+Transform them to:
+  V(a)=ca /\ V(b)=db /\ V(i)=i /\ V(j)=j /\ V(x)=x /\ P(ca+i)=x /\ (P(cb+j)=x -> V(f)=1) /\ (P(cb+j)!=x -> V(f)=0) /\ V(f)!=0
+
+The solver would notice that:
+ (1) P(cb+j)=x should be true. 
+ (2) and P(ca+i)=P(cb+j)=x
+(1) => *(cb+j=x) as an input condition;
+(2) ca+i=cb+j as another input condition; since ca cb are concrete and can't change, the another solution is to set i and j so that the input condition is true.
+  => less general solution than the case when pointer values are symbolic
+
+# Model 3: More comprehensive read/write modeling:
+For each read/write operation, since the read/write address can be symbolic, we need to model the situations when the address is the same as some other addresses.
+
+## Write operation:
+E.g.,
+3: M3:=M2[P(a+i):=x] = [V(a):=a, V(b):=b, V(i):=i, V(j):=j, V(x):=x, V(f):=0, P(a+i):=x]
+- This simple model doesn't consider the situation when a+i=A(a) or A(b) or A(i), etc.
+- Usual constraint solvers don't know the relations among P and V, so they won't know automatically relate a+i to A(a) or A(b) or A(i).
+- we need to add additional explicit constraints involving P and V, so as to enumerate all those situations: 
+   M3:=ite(V(a+i)=A(a), [V(a):=x, V(b):=b, V(i):=i, V(j):=j, V(x):=x, V(f):=0, P(a+i):=x], ite(V(a+i)=A(b), [V(a):=a, V(b):=x, V(i):=i, V(j):=j, V(x):=x, V(f):=0, P(a+i):=x], ite(V(a+i)=A(i), [V(a):=a, V(b):=b, V(i):=x, V(j):=j, V(x):=x, V(f):=0, P(a+i):=x], ite(V(a+i)=A(j), [V(a):=a, V(b):=b, V(i):=i, V(j):=x, V(x):=x, V(f):=0, P(a+i):=x], ite(V(a+i)=A(x), [V(a):=a, V(b):=b, V(i):=i, V(j):=j, V(x):=x, V(f):=0, P(a+i):=x], ite(V(a+i)=A(f), [V(a):=a, V(b):=b, V(i):=i, V(j):=j, V(x):=x, V(f):=x, P(a+i):=x], [V(a):=a, V(b):=b, V(i):=i, V(j):=j, V(x):=x, V(f):=0, P(a+i):=x]))))))
+  // Assume A(a)!=A(b)!=A(i)!=A(j)!=A(x)!=A(f), since they are declared as different variables.
+  // Basic definition/property we have: for any variable x: P(A(x))=V(x); for any expr e, P(e)=P(V(e));
+  // a special solution for V(a)=V(b)=x is A(x)=A(y).
+  // and, if V(a)=A(b) (i.e., a points to b), then P(a)=V(b)
+  // The above conditions are not complete either, as a+i is not bounded. We may need to add condition for any concerned address to check if a+i equals to the address; e.g., if a+i would point to some special stack/heap address, if the purpose of the analysis is to capture illegal writes to those stack/heap addresses.
+
+## Read operations need to enumerate all the situations too:
+E.g.,
+5:   C5:={P(b+j)=x}
+=> C5:=ite(V(b+j)=A(a), V(a)=x, ite(V(b+j)=A(b), V(b)=x, ite(V(b+j)=A(i), V(i)=x, ite(V(b+j)=A(j), V(j)=x, ite(V(b+j)=A(x), V(x)=x, ite(V(b+j)=A(f), V(f)=x, P(b+j)=x))))))
+  // this is not complete either, as b+j is not bounded. We may need to consider more conditions depending on what analysis we need.
+Similarly, C7:={P(b+j)!=x} becomes:
+   C7:=ite(V(b+j)=A(a), V(a)!=x, ite(V(b+j)=A(b), V(b)!=x, ite(V(b+j)=A(i), V(i)!=x, ite(V(b+j)=A(j), V(j)!=x, ite(V(b+j)=A(x), V(x)!=x, ite(V(b+j)=A(f), V(f)!=x, P(b+j)!=x))))))
+In this example, we can ignore C7 to reach [crash]; so the constraint to solve is:
+   C5 /\ (M3[V(f):=1] as constraints)
+=> V(b+j)=A(a) /\ V(a)=x /\ V(a+i)=A(a) /\ V(a)=x /\ V(b)=b /\ V(i)=i /\ V(j)=j /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x  
+or V(b+j)=A(a) /\ V(a)=x /\ V(a+i)=A(b) /\ V(a)=a /\ V(b)=x /\ V(i)=i /\ V(j)=j /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x
+or V(b+j)=A(a) /\ V(a)=x /\ V(a+i)=A(i) /\ V(a)=a /\ V(b)=b /\ V(i)=x /\ V(j)=j /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x
+or V(b+j)=A(a) /\ V(a)=x /\ V(a+i)=A(j) /\ V(a)=a /\ V(b)=b /\ V(i)=i /\ V(j)=x /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x
+or V(b+j)=A(a) /\ V(a)=x /\ V(a+i)=A(x) /\ V(a)=a /\ V(b)=b /\ V(i)=i /\ V(j)=j /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x
+or V(b+j)=A(a) /\ V(a)=x /\ V(a+i)=A(f) /\ V(a)=a /\ V(b)=b /\ V(i)=i /\ V(j)=j /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x  => a=x=1
+=> V(b+j)=A(b) /\ V(b)=x /\ V(a+i)=A(a) /\ V(a)=x /\ V(b)=b /\ V(i)=i /\ V(j)=j /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x  
+or V(b+j)=A(b) /\ V(b)=x /\ V(a+i)=A(b) /\ V(a)=a /\ V(b)=x /\ V(i)=i /\ V(j)=j /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x
+or V(b+j)=A(b) /\ V(b)=x /\ V(a+i)=A(i) /\ V(a)=a /\ V(b)=b /\ V(i)=x /\ V(j)=j /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x
+or V(b+j)=A(b) /\ V(b)=x /\ V(a+i)=A(j) /\ V(a)=a /\ V(b)=b /\ V(i)=i /\ V(j)=x /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x
+or V(b+j)=A(b) /\ V(b)=x /\ V(a+i)=A(x) /\ V(a)=a /\ V(b)=b /\ V(i)=i /\ V(j)=j /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x
+or V(b+j)=A(b) /\ V(b)=x /\ V(a+i)=A(f) /\ V(a)=a /\ V(b)=b /\ V(i)=i /\ V(j)=j /\ V(x)=x /\ V(f)=1 /\ P(a+i)=x  => b=x=1
+or V(b+j)=A(i) /\ V(i)=x ...
+or V(b+j)=A(j) /\ V(j)=x ...
+or V(b+j)=A(f) /\ V(f)=x ...
+or V(b+j)=A(x) /\ V(x)=x ...
+or P(b+j)=x ...
+
+Solving the above constraints will give more specific test cases that can cause the crash V(f)=1.
+
+But for this example, it's not necessary to have all these detailed read/write modeling.
+- We can revert back to use the simpler model, for this example; but may lose precision for other programs (which?).
+- Or, we use containerization during the SE, so that a, b become concrete ca, cb, and it'd be easy to check that many of the above ite conditions cannot be true, so as to help simplify the conditions early on, while still maintaining more comprehensive modeling capability of read/write via pointers (at least for the analyzed concrete executions).
+  -- E.g., assuming all the ite conditions involving V(a+j) and V(b+j) are false, then the constraints will be simplied to be the same as the above simple model for assignments.
+
+
+# Model 3 + Memsight optimization/improvements:
+1) address range restriction; eagerly determine the [min,max] for each pointer address, so as to reduce the ite enumerations;
+2) eager constraint solving during the execution paths (during if-conditions, read/write operations), to minimize the enumeration possibilities;
+3) model uninitialized variables/memory as symbolic
+4) consider multi-byte addresses together, instead of individual byte address, this also helps to reduce enumeration possibilities, and may be easier to align with code instructions semantics.
+
+
+# Example 2
+
+1: void memwriteread(char* a, int i, char* b, int j) {
+2:  a[i] = b[j];
+}
+
+5: int main(int argc, char *argv[]) {
+// getting inputs:
+6:    int len = atoi(argv[1]);
+7:    char *a = malloc(sizeof(char)*len);
+8:    int i = atoi(argv[2]);
+9:    int j = atoi(argv[3]);
+// call the target:
+10:   memwriteread(a, i, a+10, j);
+}
+
+## Using more comprehensive read/write modeling, and consider ranges:
+M1:=[V(a), V(i), V(b), V(j)], C1=\0; (A(a)!=A(i)!=A(b)!=A(j))
+  // This is not complete; if the points-to values of a is also concerned; so need to model P(a), P(a+1), ..., too:
+  M1:=M1[P(a), P(a+1), ..., P(b), P(b+1), ...]
+At line 2:
+- for reading b[j]:
+  m := ite(V(b+j)=A(a), V(a), ite(V(b+j)=A(i), V(i), ite(V(b+j)=A(b), V(b), ite(V(b+j)=A(j), V(j), P(b+j)))))
+- for writing a[i]:
+  M2:=ite(V(a+i)=A(a), M1[V(a):=m], ite(V(a+i)=A(i), M1[V(i):=m], ite(V(a+i)=A(b), M1[V(b):=m], ite(V(a+i)=A(j), M1[V(j):=m], M1[P(a+i):=m]))))
+If V(a) are concrete, then easy to check many of the ite conditions are concrete and false, and can be removed from the constraints.
+If V(a) are symbolic, there are many ite conditions.
+
+## Uses of the modeling
+
+#### Bug detection:
+- need additional constraints for the bug pattern in each relevant instruction;
+
+E.g., adding assert conditions to check if pointers V(a+i) and V(b+j) are in a suitable range;
+C+={V(a+i)<V(a) or V(a+i)>=V(a+len)}
+C+={V(b+10+j)<V(a) or V(b+10+j)>=V(a+len)}
+- Need to trace the data flow constraints to identify the right address range for each pointer.
+- Dynamic concretization may help to simplify the range identification.
+
+#### Exploit generation:
+- need to know how exploits happen, e.g., which kinds of a, b, i, j would read/write sensitive data, then can generate constraints for that;
+
+
+use after free; -> segfault?
+use after free and re-allocate;
+re-alloc after free, but previous pointers are still pointing to the newly allocated address; 
+- then use the previous pointer accessing the newly allocated address;
+
+information leak by reusing / reallocating the previous allocated but freed memory.
+
+need more constraint descriptions of various kinds of vulnerabilities.
+
+check out DARPA dataset
+
+our model: start from KLEE
+alternative: start from NES: 
+ - may be good for fuzzing + symbolic execution  for improved kernel fuzzing 

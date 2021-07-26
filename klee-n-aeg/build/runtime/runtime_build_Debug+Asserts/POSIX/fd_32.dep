@@ -1,0 +1,11 @@
+/home/beverly/Documents/klee-n-aeg/build/runtime/runtime_build_Debug+Asserts/POSIX/fd_32.bc: \
+  /home/beverly/Documents/klee-n-aeg/runtime/POSIX/fd_32.c \
+  /home/beverly/Documents/klee-n-aeg/include/klee/Config/Version.h \
+  /home/beverly/Documents/klee-n-aeg/build/include/klee/Config/config.h \
+  /home/beverly/Documents/klee-n-aeg/runtime/POSIX/fd.h
+
+/home/beverly/Documents/klee-n-aeg/include/klee/Config/Version.h:
+
+/home/beverly/Documents/klee-n-aeg/build/include/klee/Config/config.h:
+
+/home/beverly/Documents/klee-n-aeg/runtime/POSIX/fd.h:

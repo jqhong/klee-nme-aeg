@@ -1,0 +1,7 @@
+Error: external call with symbolic argument: printf
+File: sort.c
+Line: 52
+assembly.ll line: 266
+Stack: 
+	#000000266 in test (=93825008102944, =4) at sort.c:52
+	#100000366 in main () at sort.c:78

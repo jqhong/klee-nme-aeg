@@ -1,0 +1,3 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: sort.c:52: external call with symbolic argument: printf
+KLEE: NOTE: now ignoring this error at this location

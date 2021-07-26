@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Wno-unused-parameter -O2 -g  -rdynamic CMakeFiles/TreeStreamTest.dir/TreeStreamTest.cpp.o  -o ../TreeStreamTest -Wl,-rpath,/usr/lib/llvm-9/lib ../../lib/libgtest_main.a ../../lib/libkleeBasic.a ../../lib/libkleeSupport.a ../../lib/libgtest.a -lpthread -lz -ltcmalloc /usr/lib/llvm-9/lib/libLLVM-9.so 

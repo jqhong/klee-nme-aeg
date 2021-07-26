@@ -1,0 +1,5 @@
+/home/beverly/Documents/klee-n-aeg/build/runtime/runtime_build_Debug+Asserts/POSIX/stubs.bc: \
+  /home/beverly/Documents/klee-n-aeg/runtime/POSIX/stubs.c \
+  /home/beverly/Documents/klee-n-aeg/build/include/klee/Config/config.h
+
+/home/beverly/Documents/klee-n-aeg/build/include/klee/Config/config.h:
