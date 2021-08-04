@@ -94,6 +94,9 @@ ExecutionState::ExecutionState(const ExecutionState& state):
     pc(state.pc),
     prevPC(state.prevPC),
     stack(state.stack),
+    /* Jiaqi */
+    heap_allocs(state.heap_allocs),
+    /* /Jiaqi */
     incomingBBIndex(state.incomingBBIndex),
 
     addressSpace(state.addressSpace),

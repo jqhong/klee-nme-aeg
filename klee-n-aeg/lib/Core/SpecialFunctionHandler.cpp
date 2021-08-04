@@ -389,6 +389,7 @@ void SpecialFunctionHandler::handleNew(ExecutionState &state,
     /* Jiaqi */
     // executor.executeAlloc(state, arguments[0], false, target);
     printf ("handleNew invoked in state: %p. \n", &state);
+    std::cout << "at location " << target->getSourceLocation() << "\n";
     std::string file_name = target->info->file;
     const char* filestr = file_name.c_str();
     // printf ("file_name: %s. file_name size: %d. \n", filestr, file_name.size());
@@ -476,6 +477,7 @@ void SpecialFunctionHandler::handleMalloc(ExecutionState &state,
     /* Jiaqi */
     // executor.executeAlloc(state, arguments[0], false, target);
     printf ("handleMalloc invoked in state: %p. \n", &state);
+    std::cout << "at location " << target->getSourceLocation() << "\n";
     std::string file_name = target->info->file;
     const char* filestr = file_name.c_str();
     bool isRuntimeLib = 0;

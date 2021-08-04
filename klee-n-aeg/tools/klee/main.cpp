@@ -1151,6 +1151,7 @@ int heap_idx;
 struct of_k* oflow_k;
 struct of_n* oflow_n;
 uint8_t* nme_store;//pass the native heap data to here
+char nme_path[] = "/home/beverly/Documents/test_user/";
 /* /Jiaqi */
 
 int main(int argc, char **argv, char **envp) {
@@ -1168,7 +1169,23 @@ int main(int argc, char **argv, char **envp) {
 #endif
 
     /* Jiaqi, initialize klee-nme shared memory */
-    int kn_shar_fd = open("/home/beverly/Documents/test_user/laucher/file", O_RDWR);
+    char tmp_path[100];
+    char  shar_file_p[] = "laucher/file";
+    int path_len = strlen(nme_path) + strlen(shar_file_p);
+    if (path_len >= 100)
+    {
+        printf ("no sufficient space for shar file path. path len: %d. \n", path_len);
+        return -1;
+    }
+    strcpy(tmp_path, nme_path);
+    strcat(tmp_path, shar_file_p);
+    int kn_shar_fd = open(tmp_path, O_RDWR);
+    if (kn_shar_fd == -1)
+    {
+        printf ("open shar file failed. path: %s. \n", tmp_path);
+        return -1;
+    }
+    // int kn_shar_fd = open("/home/beverly/Documents/test_user/laucher/file", O_RDWR);
     void* kn_shar_mem = mmap (NULL, 0x1000, PROT_READ | PROT_WRITE, MAP_SHARED | MAP_POPULATE, kn_shar_fd, 0);
     printf ("kn_shar_mem at : %p. fd: %d. \n", kn_shar_mem, kn_shar_fd);
     memset (kn_shar_mem, 0x00, 0x1000);
@@ -1187,7 +1204,30 @@ int main(int argc, char **argv, char **envp) {
     if (!fpid)/* this is child process */
     {
         printf ("about to launch onsite. \n");
-        char *ex_args[] = {"/home/beverly/Documents/test_user/laucher/hello", "0x0", new_buf, 0};
+        char laucher_p[] = "laucher/hello";
+        char l_path[100];
+        path_len = strlen(nme_path) + strlen(laucher_p);
+        if (path_len >= 100)
+        {
+            printf ("no sufficient space for launcher path. path len: %d. exit child. \n", path_len);
+            exit(0);
+        }
+        strcpy(l_path, nme_path);
+        strcat(l_path, laucher_p);
+        /* prepare arg to specify path of nme agent */
+        char nme_agent_p[] = "nes1/testtest";
+        char agent_path[100];
+        path_len = strlen(nme_path) + strlen(nme_agent_p);
+        if (path_len >= 100)
+        {
+            printf ("no sufficient space for nme agent path. path len: %d. exit child. \n", path_len);
+            exit(0);
+        }
+        strcpy(agent_path, nme_path);
+        strcat(agent_path, nme_agent_p);
+        
+        char *ex_args[] = {l_path, "0x0", new_buf, agent_path, 0};
+        // char *ex_args[] = {"/home/beverly/Documents/test_user/laucher/hello", "0x0", new_buf, 0};
         execve(ex_args[0], ex_args, NULL);
         printf ("launch launcher failed. \n");
     }

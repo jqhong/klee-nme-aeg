@@ -480,7 +480,17 @@ void nme_req (ExecutionState* state, bool new_alloc)
     std::vector<HeapAlloc> v;
     int i;
     int j;
-    printf ("state: %p. last_state: %p. \n", state, last_state); 
+    printf ("state: %p ; last_state: %p. \n", state, last_state);
+    if (state)
+    {
+        printf ("state heap_allocs size: %d. \n", state->heap_allocs.size());
+    }
+    if (last_state)
+    {
+        printf ("last state heap_allocs size: %d. \n", last_state->heap_allocs.size());
+    }
+    /* /debug */
+
     if (state == last_state || last_state == NULL)
     {
         v.push_back(state->heap_allocs.back());
@@ -555,13 +565,13 @@ void nme_req (ExecutionState* state, bool new_alloc)
     memcpy(nme_buf, &v[0], v.size()*sizeof(struct HeapAlloc));
 
     printf ("v.size: %d. \n", v.size());
-    printf ("req: %d, size: %lx. \n", nme_buf[0].req, nme_buf[0].size);
+    // printf ("req: %d, size: %lx. \n", nme_buf[0].req, nme_buf[0].size);
 
     // printf ("addr of nme_buf: %p. \n", nme_buf);
-    // for (i = 0; i < v.size(); i ++)
-    // {
-    //     printf ("req: %d. size: %d, mo: %p. nativeaddress: %lx. \n", v[i].req, v[i].size, v[i].mo, v[i].nativeAddress);
-    // }
+    for (i = 0; i < v.size(); i ++)
+    {
+        printf ("req: %d. size: %d, mo: %p. nativeaddress: %lx. \n", v[i].req, v[i].size, v[i].mo, v[i].nativeAddress);
+    }
     // shar_mem->end += sizeof(v);
     // int req_num = v.size();//number of HeapAlloc reqs
     // kn_indicator->num = req_num; 
@@ -573,7 +583,8 @@ void nme_req (ExecutionState* state, bool new_alloc)
 
     //fetch the responses; and update the NativeAddress in MemoryObject. 
     do{
-        printf ("wait for nme response. \n");
+        // printf ("wait for nme response. \n");
+        asm volatile("mfence; \n\t");
     } while(kn_indicator->flag != 0);
     t1 = rdtsc();
     t = t1-t0;
@@ -3637,6 +3648,7 @@ void Executor::executeAlloc(ExecutionState &state,
                 mo->address = 0;
                 HeapAlloc* heap_alloc = new HeapAlloc(mo, 1, CE->getZExtValue(), allocationAlignment, NULL);
                 state.heap_allocs.push_back(*heap_alloc);
+                printf ("issue nme_req for malloc. \n");
                 nme_req(&state, 1);
                 // emulate_nme_req(&state, 1);
                 mo->nativeAddress = state.heap_allocs.back().nativeAddress;
@@ -3778,6 +3790,7 @@ void Executor::executeFree(ExecutionState &state,
                     MemoryObject* Mo = const_cast<MemoryObject*>(mo);
                     HeapAlloc* heap_alloc = new HeapAlloc(Mo, 2, Mo->size, 0, Mo->address);
                     it->second->heap_allocs.push_back(*heap_alloc);
+                    printf ("issue nme_req for free. \n");
                     nme_req(&state, 1);
                     // emulate_nme_req(&state, 1);
                     printf ("in free, mo->name: %s. mo->kleeAddress: %lx, mo->nativeAddress: %lx. \n", mo->name, mo->kleeAddress, mo->nativeAddress); 
