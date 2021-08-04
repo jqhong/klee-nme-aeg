@@ -1,0 +1,1 @@
+cmd_/home/beverly/Documents/test_ker/fsgsbase_cr3/enable_rdfsbase.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/beverly/Documents/test_ker/fsgsbase_cr3/enable_rdfsbase.ko /home/beverly/Documents/test_ker/fsgsbase_cr3/enable_rdfsbase.o /home/beverly/Documents/test_ker/fsgsbase_cr3/enable_rdfsbase.mod.o;  true

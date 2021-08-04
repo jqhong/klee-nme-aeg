@@ -1,0 +1,17 @@
+/home/beverly/Documents/glibc-2.27/build-glibc/dummy.o: \
+ /home/beverly/Documents/glibc-2.27/build-glibc/dummy.c \
+ ../include/stdc-predef.h \
+ /home/beverly/Documents/glibc-2.27/build-glibc/libc-modules.h \
+ ../include/libc-symbols.h \
+ /home/beverly/Documents/glibc-2.27/build-glibc/config.h \
+ ../sysdeps/generic/symbol-hacks.h
+
+../include/stdc-predef.h:
+
+/home/beverly/Documents/glibc-2.27/build-glibc/libc-modules.h:
+
+../include/libc-symbols.h:
+
+/home/beverly/Documents/glibc-2.27/build-glibc/config.h:
+
+../sysdeps/generic/symbol-hacks.h:

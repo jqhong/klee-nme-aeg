@@ -1,0 +1,1786 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(check_fds.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__libc_check_standard_fds)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(errno.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(check_fds.os) (__libc_errno)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setjmp.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__sigsetjmp)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(__longjmp.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__longjmp)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (strchr)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (strcmp)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (strcspn)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strdup.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__strdup)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (strlen)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (strnlen)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (memchr)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (memcmp)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (memmove)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (memset)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__mempcpy)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__stpcpy)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(check_fds.os) (__GI_memcpy)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (rawmemchr)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp.os) (__strcmp_sse2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2-unaligned.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp.os) (__strcmp_sse2_unaligned)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-ssse3.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp.os) (__strcmp_ssse3)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-sse2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr.os) (__memchr_sse2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-sse2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr.os) (__rawmemchr_sse2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-avx2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr.os) (__memchr_avx2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-avx2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr.os) (__rawmemchr_avx2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp.os) (__memcmp_sse2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-avx2-movbe.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp.os) (__memcmp_avx2_movbe)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse4.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp.os) (__memcmp_sse4_1)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os) (__mempcpy_ssse3)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove.os) (__memmove_ssse3)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3-back.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os) (__mempcpy_ssse3_back)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3-back.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove.os) (__memmove_ssse3_back)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os) (__mempcpy_avx512_no_vzeroupper)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr.os) (__strchr_sse2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-avx2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr.os) (__strchr_avx2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-sse2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen.os) (__strlen_sse2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-sse2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen.os) (__strnlen_sse2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-avx2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen.os) (__strlen_avx2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-avx2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen.os) (__strnlen_avx2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy.os) (__stpcpy_sse2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-ssse3.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy.os) (__stpcpy_ssse3)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2-unaligned.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy.os) (__stpcpy_sse2_unaligned)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2-no-bsf.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr.os) (__strchr_sse2_no_bsf)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-ssse3.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp.os) (__memcmp_ssse3)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-sse2.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn.os) (__strcspn_sse2)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-c.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn.os) (__strcspn_sse42)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(varshift.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-c.os) (___m128i_shift_right)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-no-vzeroupper.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset.os) (__memset_avx512_no_vzeroupper)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-sse2-unaligned-erms.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os) (__mempcpy_sse2_unaligned)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx-unaligned-erms.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os) (__mempcpy_avx_unaligned)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-unaligned-erms.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os) (__mempcpy_avx512_unaligned)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-sse2-unaligned-erms.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset.os) (__memset_sse2_unaligned)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx2-unaligned-erms.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset.os) (__memset_avx2_unaligned)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-unaligned-erms.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset.os) (__memset_avx512_unaligned)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3-back.os) (__x86_data_cache_size)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(closedir.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__closedir)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(readdir.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__readdir)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rewinddir.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__rewinddir)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getdents.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(readdir.os) (__getdents)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fdopendir.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__fdopendir)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(uname.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__uname)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(_exit.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__GI__exit)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getpid.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__getpid)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(environ.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__environ)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(xstat.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__GI___xstat64)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fxstat.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__GI___fxstat64)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lxstat.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__GI___lxstat64)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(open64.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__open)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(openat64.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__openat64_nocancel)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(read.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__libc_read)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(write.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__libc_write)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lseek64.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rewinddir.os) (__GI___lseek)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(access.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__access)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fcntl.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(check_fds.os) (__GI___libc_fcntl)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(close.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__close)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mmap64.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__mmap)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(munmap.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__munmap)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mprotect.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__mprotect)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(profil.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (__profil)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(prof-freq.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(profil.os) (__GI___profile_frequency)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-lowlevellock.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(readdir.os) (__lll_lock_wait_private)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-cancellation.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(open64.os) (__libc_enable_asynccancel)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc_multiple_threads.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(readdir.os) (__libc_multiple_threads)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(dl-addr-obj.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os (_dl_addr_inside_object)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(sigaction.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(profil.os) (__GI___sigaction)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setitimer.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(profil.os) (__setitimer)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(forward.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-cancellation.os) (__pthread_unwind)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(exit.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(forward.os) (__GI_exit)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_atexit.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(exit.os) (__new_exitfn_called)
+/home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_thread_atexit_impl.os)
+                              /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(exit.os) (__GI___call_tls_dtors)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000000000                __stack_chk_fail = 0x0
+                0x0000000000000000                __stack_chk_fail_local = 0x0
+START GROUP
+LOAD /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+LOAD /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a
+END GROUP
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+ *(.iplt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000000    0x1e965
+ *(.text .stub)
+ .text          0x0000000000000000    0x18b60 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+                0x0000000000000000                _start
+                0x0000000000000008                _dl_start_user
+                0x0000000000001240                handle_ld_preload
+                0x00000000000068f0                _dl_dst_count
+                0x00000000000069a0                _dl_dst_substitute
+                0x0000000000007180                _dl_init_paths
+                0x0000000000007500                _dl_map_object
+                0x0000000000007f60                _dl_rtld_di_serinfo
+                0x0000000000008e90                _dl_lookup_symbol_x
+                0x0000000000009db0                _dl_setup_hash
+                0x0000000000009e60                _dl_add_to_namespace_list
+                0x0000000000009ef0                _dl_new_object
+                0x000000000000a260                _dl_try_allocate_static_tls
+                0x000000000000a340                _dl_allocate_static_tls
+                0x000000000000a370                _dl_nothread_init_static_tls
+                0x000000000000a3b0                _dl_protect_relro
+                0x000000000000a420                _dl_reloc_bad_type
+                0x000000000000a4f0                _dl_relocate_object
+                0x000000000000be30                _dl_map_object_deps
+                0x000000000000ce10                _dl_important_hwcaps
+                0x000000000000d5d0                _dl_fixup
+                0x000000000000d770                _dl_profile_fixup
+                0x000000000000dd20                _dl_call_pltexit
+                0x000000000000df40                _dl_init
+                0x000000000000e080                _dl_fini
+                0x000000000000e460                _dl_debug_state
+                0x000000000000e460                __GI__dl_debug_state
+                0x000000000000e470                _dl_debug_initialize
+                0x000000000000eb00                _dl_sysdep_read_whole_file
+                0x000000000000eb90                _dl_debug_printf
+                0x000000000000ec40                _dl_debug_printf_c
+                0x000000000000ecf0                _dl_dprintf
+                0x000000000000ed90                _dl_name_match_p
+                0x000000000000ee00                _dl_higher_prime_number
+                0x000000000000ee80                _dl_strtoul
+                0x000000000000eff0                _dl_check_map_versions
+                0x000000000000f750                _dl_check_all_versions
+                0x000000000000f7c0                _dl_start_profile
+                0x000000000000ff20                __GI__dl_mcount
+                0x000000000000ff20                _dl_mcount
+                0x0000000000010470                _dl_next_tls_modid
+                0x0000000000010570                _dl_count_modids
+                0x00000000000105e0                _dl_determine_tlsoffset
+                0x00000000000107a0                _dl_get_tls_static_info
+                0x00000000000107c0                _dl_allocate_tls_storage
+                0x0000000000010880                __GI__dl_allocate_tls_init
+                0x0000000000010880                _dl_allocate_tls_init
+                0x0000000000010b00                __GI__dl_allocate_tls
+                0x0000000000010b00                _dl_allocate_tls
+                0x0000000000010b40                _dl_deallocate_tls
+                0x0000000000010b40                __GI__dl_deallocate_tls
+                0x0000000000010bc0                _dl_update_slotinfo
+                0x0000000000010e30                __GI___tls_get_addr
+                0x0000000000010e30                ___tls_get_addr
+                0x0000000000010e70                _dl_tls_get_addr_soft
+                0x0000000000010ef0                _dl_add_to_slotinfo
+                0x0000000000010fe0                __tls_get_addr_slow
+                0x0000000000011010                _dl_get_origin
+                0x00000000000111b0                _dl_scope_free
+                0x0000000000011280                _dl_make_stack_executable
+                0x0000000000011280                __GI__dl_make_stack_executable
+                0x0000000000011310                _dl_check_caller
+                0x0000000000011700                __GI__dl_find_dso_for_object
+                0x0000000000011700                _dl_find_dso_for_object
+                0x00000000000117d0                _dl_open
+                0x0000000000011b00                _dl_show_scope
+                0x0000000000012540                _dl_close_worker
+                0x0000000000013580                _dl_close
+                0x00000000000135f0                _dl_runtime_profile_avx512
+                0x0000000000013a70                _dl_runtime_profile_avx
+                0x0000000000013ef0                _dl_runtime_profile_sse
+                0x00000000000140f0                _dl_runtime_resolve_fxsave
+                0x0000000000014170                _dl_runtime_resolve_xsave
+                0x0000000000014240                _dl_runtime_resolve_xsavec
+                0x0000000000014330                _dl_exception_create
+                0x0000000000014330                __GI__dl_exception_create
+                0x0000000000014430                __GI__dl_exception_create_format
+                0x0000000000014430                _dl_exception_create_format
+                0x0000000000014750                _dl_exception_free
+                0x0000000000014750                __GI__dl_exception_free
+                0x0000000000014780                _dl_sort_maps
+                0x0000000000014a60                _dl_cache_libcmp
+                0x0000000000014b30                _dl_load_cache_lookup
+                0x00000000000151b0                _dl_unload_cache
+                0x00000000000152b0                __tunable_set_val
+                0x00000000000152d0                __GI___tunables_init
+                0x0000000000015790                __tunable_get_val
+                0x0000000000015790                __GI___tunable_get_val
+                0x00000000000157f0                _dl_make_tlsdesc_dynamic
+                0x0000000000015af0                _dl_tlsdesc_resolve_rela_fixup
+                0x0000000000015cb0                _dl_tlsdesc_resolve_hold_fixup
+                0x0000000000015cf0                _dl_unmap
+                0x0000000000015d70                _dl_tlsdesc_return
+                0x0000000000015d80                _dl_tlsdesc_undefweak
+                0x0000000000015d90                _dl_tlsdesc_dynamic
+                0x0000000000015e30                _dl_tlsdesc_resolve_rela
+                0x0000000000015ea0                _dl_tlsdesc_resolve_hold
+                0x0000000000015f20                __tls_get_addr
+                0x0000000000015f60                __get_cpu_features
+                0x0000000000015f70                _dl_tunable_set_hwcaps
+                0x0000000000016e10                _dl_sysdep_start
+                0x00000000000175b0                _dl_sysdep_start_cleanup
+                0x00000000000175c0                _dl_show_auxv
+                0x0000000000017740                _dl_discover_osversion
+                0x0000000000017920                _dl_next_ld_env_entry
+                0x0000000000017970                unsetenv
+                0x00000000000179e0                malloc
+                0x0000000000017b10                calloc
+                0x0000000000017b50                free
+                0x0000000000017b90                __sigjmp_save
+                0x0000000000017ba0                __strerror_r
+                0x0000000000017c80                __GI___libc_fatal
+                0x0000000000017c80                __libc_fatal
+                0x0000000000017cb0                __GI___chk_fail
+                0x0000000000017cb0                __chk_fail
+                0x0000000000017cc0                __GI___assert_fail
+                0x0000000000017cc0                __assert_fail
+                0x0000000000017d10                realloc
+                0x0000000000017da0                __GI___assert_perror_fail
+                0x0000000000017da0                __assert_perror_fail
+                0x0000000000017e10                _itoa
+                0x0000000000017e60                __strsep
+                0x0000000000017e60                strsep
+                0x0000000000017e60                __strsep_g
+                0x0000000000017fa0                _dl_signal_exception
+                0x0000000000017ff0                _dl_signal_error
+                0x0000000000018040                _dl_signal_cexception
+                0x00000000000180c0                _dl_signal_cerror
+                0x0000000000018150                _dl_catch_exception
+                0x0000000000018200                _dl_catch_error
+                0x0000000000018250                _dl_receive_error
+                0x0000000000018290                _dl_resolve_conflicts
+                0x0000000000018400                __brk
+                0x0000000000018400                brk
+                0x0000000000018450                sbrk
+                0x0000000000018450                __sbrk
+                0x00000000000184e0                __getcwd
+                0x00000000000184e0                getcwd
+                0x0000000000018910                openat64
+                0x0000000000018970                __alloc_dir
+                0x0000000000018a70                __opendir
+                0x0000000000018a70                opendir
+                0x0000000000018b10                __fxstatat
+                0x0000000000018b10                __fxstatat64
+                0x0000000000018b10                __GI___fxstatat64
+ .text          0x0000000000018b60       0xe2 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(check_fds.os)
+                0x0000000000018c10                __libc_check_standard_fds
+ .text          0x0000000000018c42        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(errno.os)
+ *fill*         0x0000000000018c42        0xe 
+ .text          0x0000000000018c50       0x57 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setjmp.os)
+                0x0000000000018c50                __sigsetjmp
+                0x0000000000018c50                __GI___sigsetjmp
+ *fill*         0x0000000000018ca7        0x9 
+ .text          0x0000000000018cb0       0x50 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(__longjmp.os)
+                0x0000000000018cb0                __longjmp
+ .text          0x0000000000018d00       0x3b /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr.os)
+                0x0000000000018d00                __GI_strchr
+                0x0000000000018d00                index
+                0x0000000000018d00                strchr
+ *fill*         0x0000000000018d3b        0x5 
+ .text          0x0000000000018d40       0x2f /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp.os)
+                0x0000000000018d40                __GI_strcmp
+                0x0000000000018d40                strcmp
+ *fill*         0x0000000000018d6f        0x1 
+ .text          0x0000000000018d70       0x1e /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn.os)
+                0x0000000000018d70                strcspn
+                0x0000000000018d70                __GI_strcspn
+ *fill*         0x0000000000018d8e        0x2 
+ .text          0x0000000000018d90       0x41 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strdup.os)
+                0x0000000000018d90                __GI___strdup
+                0x0000000000018d90                __strdup
+                0x0000000000018d90                strdup
+ *fill*         0x0000000000018dd1        0xf 
+ .text          0x0000000000018de0       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen.os)
+                0x0000000000018de0                strlen
+                0x0000000000018de0                __GI_strlen
+ *fill*         0x0000000000018e0a        0x6 
+ .text          0x0000000000018e10       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen.os)
+                0x0000000000018e10                __strnlen
+                0x0000000000018e10                strnlen
+                0x0000000000018e10                __GI___strnlen
+                0x0000000000018e10                __GI_strnlen
+ *fill*         0x0000000000018e3a        0x6 
+ .text          0x0000000000018e40       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr.os)
+                0x0000000000018e40                __GI_memchr
+                0x0000000000018e40                memchr
+                0x0000000000018e40                __memchr
+ *fill*         0x0000000000018e6a        0x6 
+ .text          0x0000000000018e70       0x5e /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp.os)
+                0x0000000000018e70                bcmp
+                0x0000000000018e70                __GI_memcmp
+                0x0000000000018e70                memcmp
+ *fill*         0x0000000000018ece        0x2 
+ .text          0x0000000000018ed0       0xca /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove.os)
+                0x0000000000018ed0                memmove
+                0x0000000000018ed0                __GI_memmove
+                0x0000000000018ed0                __libc_memmove
+ *fill*         0x0000000000018f9a        0x6 
+ .text          0x0000000000018fa0       0x99 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset.os)
+                0x0000000000018fa0                __GI_memset
+                0x0000000000018fa0                memset
+ *fill*         0x0000000000019039        0x7 
+ .text          0x0000000000019040       0xca /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os)
+                0x0000000000019040                mempcpy
+                0x0000000000019040                __GI_mempcpy
+                0x0000000000019040                __mempcpy
+                0x0000000000019040                __GI___mempcpy
+ *fill*         0x000000000001910a        0x6 
+ .text          0x0000000000019110       0x2f /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy.os)
+                0x0000000000019110                stpcpy
+                0x0000000000019110                __GI_stpcpy
+                0x0000000000019110                __stpcpy
+                0x0000000000019110                __GI___stpcpy
+ *fill*         0x000000000001913f        0x1 
+ .text          0x0000000000019140       0xca /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy.os)
+                0x0000000000019140                __GI_memcpy
+                0x0000000000019140                __new_memcpy
+                0x0000000000019140                memcpy@@GLIBC_2.14
+ *fill*         0x000000000001920a        0x6 
+ .text          0x0000000000019210       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr.os)
+                0x0000000000019210                __GI___rawmemchr
+                0x0000000000019210                __rawmemchr
+                0x0000000000019210                rawmemchr
+ *fill*         0x000000000001923a        0x6 
+ .text          0x0000000000019240     0x1439 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2.os)
+                0x0000000000019240                __strcmp_sse2
+ *fill*         0x000000000001a679        0x7 
+ .text          0x000000000001a680      0x2a3 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2-unaligned.os)
+                0x000000000001a680                __strcmp_sse2_unaligned
+ .text          0x000000000001a923        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-ssse3.os)
+ *fill*         0x000000000001a923        0xd 
+ .text          0x000000000001a930      0x323 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-sse2.os)
+                0x000000000001a930                __memchr_sse2
+ *fill*         0x000000000001ac53        0xd 
+ .text          0x000000000001ac60      0x1f9 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-sse2.os)
+                0x000000000001ac60                __rawmemchr_sse2
+ .text          0x000000000001ae59        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-avx2.os)
+ .text          0x000000000001ae59        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-avx2.os)
+ *fill*         0x000000000001ae59        0x7 
+ .text          0x000000000001ae60      0x400 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse2.os)
+                0x000000000001ae60                __memcmp_sse2
+ .text          0x000000000001b260        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-avx2-movbe.os)
+ .text          0x000000000001b260        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse4.os)
+ .text          0x000000000001b260        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3.os)
+ .text          0x000000000001b260        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3.os)
+ .text          0x000000000001b260        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3-back.os)
+ .text          0x000000000001b260        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3-back.os)
+ .text          0x000000000001b260        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .text          0x000000000001b260      0x21a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2.os)
+                0x000000000001b260                __strchr_sse2
+ .text          0x000000000001b47a        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-avx2.os)
+ *fill*         0x000000000001b47a        0x6 
+ .text          0x000000000001b480      0x19c /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-sse2.os)
+                0x000000000001b480                __strlen_sse2
+                0x000000000001b480                __GI___strlen_sse2
+ *fill*         0x000000000001b61c        0x4 
+ .text          0x000000000001b620      0x218 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-sse2.os)
+                0x000000000001b620                __strnlen_sse2
+ .text          0x000000000001b838        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-avx2.os)
+ .text          0x000000000001b838        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-avx2.os)
+ *fill*         0x000000000001b838        0x8 
+ .text          0x000000000001b840       0xdc /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2.os)
+                0x000000000001b840                __stpcpy_sse2
+ .text          0x000000000001b91c        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-ssse3.os)
+ *fill*         0x000000000001b91c        0x4 
+ .text          0x000000000001b920      0x6b0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2-unaligned.os)
+                0x000000000001b920                __stpcpy_sse2_unaligned
+ .text          0x000000000001bfd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2-no-bsf.os)
+ .text          0x000000000001bfd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-ssse3.os)
+ .text          0x000000000001bfd0       0x97 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-sse2.os)
+                0x000000000001bfd0                __strcspn_sse2
+ .text          0x000000000001c067        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-c.os)
+ .text          0x000000000001c067        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(varshift.os)
+ .text          0x000000000001c067        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ *fill*         0x000000000001c067        0x9 
+ .text          0x000000000001c070      0x3e9 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-sse2-unaligned-erms.os)
+                0x000000000001c070                __mempcpy_chk_sse2_unaligned
+                0x000000000001c080                __mempcpy_sse2_unaligned
+                0x000000000001c090                __memcpy_chk_sse2_unaligned
+                0x000000000001c090                __memmove_chk_sse2_unaligned
+                0x000000000001c0a0                __memmove_sse2_unaligned
+                0x000000000001c0a0                __memcpy_sse2_unaligned
+                0x000000000001c0a0                memcpy@GLIBC_2.2.5
+                0x000000000001c0d0                __mempcpy_chk_erms
+                0x000000000001c0e0                __mempcpy_erms
+                0x000000000001c0f0                __memcpy_chk_erms
+                0x000000000001c0f0                __memmove_chk_erms
+                0x000000000001c100                __memmove_erms
+                0x000000000001c100                __memcpy_erms
+                0x000000000001c130                __mempcpy_chk_sse2_unaligned_erms
+                0x000000000001c140                __mempcpy_sse2_unaligned_erms
+                0x000000000001c150                __memmove_chk_sse2_unaligned_erms
+                0x000000000001c150                __memcpy_chk_sse2_unaligned_erms
+                0x000000000001c160                __memmove_sse2_unaligned_erms
+                0x000000000001c160                __memcpy_sse2_unaligned_erms
+ .text          0x000000000001c459        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .text          0x000000000001c459        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ *fill*         0x000000000001c459        0x7 
+ .text          0x000000000001c460      0x193 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-sse2-unaligned-erms.os)
+                0x000000000001c460                __bzero
+                0x000000000001c460                bzero
+                0x000000000001c470                __wmemset_chk_sse2_unaligned
+                0x000000000001c480                __wmemset_sse2_unaligned
+                0x000000000001c4a0                __memset_chk_sse2_unaligned
+                0x000000000001c4b0                __memset_sse2_unaligned
+                0x000000000001c4e0                __memset_chk_erms
+                0x000000000001c4f0                __memset_erms
+                0x000000000001c500                __memset_chk_sse2_unaligned_erms
+                0x000000000001c510                __memset_sse2_unaligned_erms
+ .text          0x000000000001c5f3        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .text          0x000000000001c5f3        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-unaligned-erms.os)
+ *fill*         0x000000000001c5f3        0xd 
+ .text          0x000000000001c600      0x5ad /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+                0x000000000001cb80                __cache_sysconf
+ *fill*         0x000000000001cbad        0x3 
+ .text          0x000000000001cbb0       0x2c /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(closedir.os)
+                0x000000000001cbb0                __closedir
+                0x000000000001cbb0                closedir
+ *fill*         0x000000000001cbdc        0x4 
+ .text          0x000000000001cbe0      0x100 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(readdir.os)
+                0x000000000001cbe0                readdir
+                0x000000000001cbe0                __readdir64
+                0x000000000001cbe0                __readdir
+                0x000000000001cbe0                __GI___readdir64
+                0x000000000001cbe0                readdir64
+ .text          0x000000000001cce0       0x93 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rewinddir.os)
+                0x000000000001cce0                rewinddir
+                0x000000000001cce0                __rewinddir
+                0x000000000001cce0                __GI___rewinddir
+ *fill*         0x000000000001cd73        0xd 
+ .text          0x000000000001cd80       0x8d /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getdents.os)
+                0x000000000001cd80                __getdents
+                0x000000000001cd80                __getdents64
+ *fill*         0x000000000001ce0d        0x3 
+ .text          0x000000000001ce10       0xa2 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fdopendir.os)
+                0x000000000001ce10                fdopendir
+                0x000000000001ce10                __fdopendir
+ *fill*         0x000000000001ceb2        0xe 
+ .text          0x000000000001cec0       0x21 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(uname.os)
+                0x000000000001cec0                uname
+                0x000000000001cec0                __GI_uname
+                0x000000000001cec0                __uname
+                0x000000000001cec0                __GI___uname
+ *fill*         0x000000000001cee1        0xf 
+ .text          0x000000000001cef0       0x58 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(_exit.os)
+                0x000000000001cef0                _Exit
+                0x000000000001cef0                __GI__exit
+                0x000000000001cef0                _exit
+ *fill*         0x000000000001cf48        0x8 
+ .text          0x000000000001cf50        0x8 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getpid.os)
+                0x000000000001cf50                __getpid
+                0x000000000001cf50                getpid
+                0x000000000001cf50                __GI_getpid
+                0x000000000001cf50                __GI___getpid
+ .text          0x000000000001cf58        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(environ.os)
+ *fill*         0x000000000001cf58        0x8 
+ .text          0x000000000001cf60       0x4c /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(xstat.os)
+                0x000000000001cf60                _xstat
+                0x000000000001cf60                __xstat64
+                0x000000000001cf60                __GI___xstat64
+                0x000000000001cf60                __GI___xstat
+                0x000000000001cf60                __xstat
+ *fill*         0x000000000001cfac        0x4 
+ .text          0x000000000001cfb0       0x4c /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fxstat.os)
+                0x000000000001cfb0                __GI___fxstat
+                0x000000000001cfb0                __GI___fxstat64
+                0x000000000001cfb0                __fxstat64
+                0x000000000001cfb0                _fxstat
+                0x000000000001cfb0                __fxstat
+ *fill*         0x000000000001cffc        0x4 
+ .text          0x000000000001d000       0x4c /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lxstat.os)
+                0x000000000001d000                __GI___lxstat
+                0x000000000001d000                _lxstat
+                0x000000000001d000                __lxstat
+                0x000000000001d000                __lxstat64
+                0x000000000001d000                __GI___lxstat64
+ *fill*         0x000000000001d04c        0x4 
+ .text          0x000000000001d050      0x17a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(open64.os)
+                0x000000000001d050                __GI___open64
+                0x000000000001d050                __open
+                0x000000000001d050                __GI___open
+                0x000000000001d050                __libc_open64
+                0x000000000001d050                open64
+                0x000000000001d050                __GI___libc_open
+                0x000000000001d050                open
+                0x000000000001d050                __open64
+                0x000000000001d150                __GI___open_nocancel
+                0x000000000001d150                __open_nocancel
+                0x000000000001d150                __GI___open64_nocancel
+                0x000000000001d150                __open64_nocancel
+ *fill*         0x000000000001d1ca        0x6 
+ .text          0x000000000001d1d0      0x16a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(openat64.os)
+                0x000000000001d1d0                __openat64
+                0x000000000001d1d0                __GI___openat
+                0x000000000001d1d0                __GI___openat64
+                0x000000000001d1d0                __libc_openat64
+                0x000000000001d1d0                __openat
+                0x000000000001d1d0                openat
+                0x000000000001d2d0                __GI___openat64_nocancel
+                0x000000000001d2d0                __openat64_nocancel
+                0x000000000001d2d0                __GI___openat_nocancel
+ *fill*         0x000000000001d33a        0x6 
+ .text          0x000000000001d340       0xc4 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(read.os)
+                0x000000000001d340                __read
+                0x000000000001d340                __GI_read
+                0x000000000001d340                __libc_read
+                0x000000000001d340                __GI___read
+                0x000000000001d340                read
+                0x000000000001d340                __GI___libc_read
+                0x000000000001d3e0                __read_nocancel
+                0x000000000001d3e0                __GI___read_nocancel
+ *fill*         0x000000000001d404        0xc 
+ .text          0x000000000001d410       0xcc /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(write.os)
+                0x000000000001d410                __write
+                0x000000000001d410                __GI_write
+                0x000000000001d410                write
+                0x000000000001d410                __GI___libc_write
+                0x000000000001d410                __GI___write
+                0x000000000001d410                __libc_write
+                0x000000000001d4b0                __GI___write_nocancel
+                0x000000000001d4b0                __write_nocancel
+ *fill*         0x000000000001d4dc        0x4 
+ .text          0x000000000001d4e0       0x2c /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lseek64.os)
+                0x000000000001d4e0                __GI___lseek
+                0x000000000001d4e0                __lseek64
+                0x000000000001d4e0                lseek
+                0x000000000001d4e0                __libc_lseek64
+                0x000000000001d4e0                llseek
+                0x000000000001d4e0                __lseek
+                0x000000000001d4e0                __libc_lseek
+                0x000000000001d4e0                lseek64
+ *fill*         0x000000000001d50c        0x4 
+ .text          0x000000000001d510       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(access.os)
+                0x000000000001d510                access
+                0x000000000001d510                __access
+ *fill*         0x000000000001d53a        0x6 
+ .text          0x000000000001d540      0x15f /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fcntl.os)
+                0x000000000001d5a0                __libc_fcntl
+                0x000000000001d5a0                __GI___libc_fcntl
+                0x000000000001d5a0                __GI___fcntl
+                0x000000000001d5a0                __fcntl
+                0x000000000001d5a0                fcntl
+                0x000000000001d670                __GI___fcntl_nocancel
+                0x000000000001d670                __fcntl_nocancel
+ *fill*         0x000000000001d69f        0x1 
+ .text          0x000000000001d6a0       0xaa /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(close.os)
+                0x000000000001d6a0                __libc_close
+                0x000000000001d6a0                __close
+                0x000000000001d6a0                __GI___close
+                0x000000000001d6a0                close
+                0x000000000001d720                __GI___close_nocancel
+                0x000000000001d720                __close_nocancel
+ *fill*         0x000000000001d74a        0x6 
+ .text          0x000000000001d750       0xe0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mmap64.os)
+                0x000000000001d750                __GI___mmap
+                0x000000000001d750                __mmap
+                0x000000000001d750                mmap
+                0x000000000001d750                __GI___mmap64
+                0x000000000001d750                __mmap64
+                0x000000000001d750                mmap64
+ .text          0x000000000001d830       0x21 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(munmap.os)
+                0x000000000001d830                munmap
+                0x000000000001d830                __GI___munmap
+                0x000000000001d830                __GI_munmap
+                0x000000000001d830                __munmap
+ *fill*         0x000000000001d851        0xf 
+ .text          0x000000000001d860       0x21 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mprotect.os)
+                0x000000000001d860                __mprotect
+                0x000000000001d860                __GI___mprotect
+                0x000000000001d860                __GI_mprotect
+                0x000000000001d860                mprotect
+ *fill*         0x000000000001d881        0xf 
+ .text          0x000000000001d890      0x1c1 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(profil.os)
+                0x000000000001d8e0                __profil
+                0x000000000001d8e0                profil
+ *fill*         0x000000000001da51        0xf 
+ .text          0x000000000001da60        0xb /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(prof-freq.os)
+                0x000000000001da60                __GI___profile_frequency
+                0x000000000001da60                __profile_frequency
+ *fill*         0x000000000001da6b        0x5 
+ .text          0x000000000001da70       0x4c /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-lowlevellock.os)
+                0x000000000001da70                __lll_lock_wait_private
+                0x000000000001daa0                __lll_unlock_wake_private
+ *fill*         0x000000000001dabc        0x4 
+ .text          0x000000000001dac0       0xb9 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-cancellation.os)
+                0x000000000001dac0                __libc_enable_asynccancel
+                0x000000000001db20                __libc_disable_asynccancel
+ .text          0x000000000001db79        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc_multiple_threads.os)
+ *fill*         0x000000000001db79        0x7 
+ .text          0x000000000001db80       0x53 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(dl-addr-obj.os)
+                0x000000000001db80                _dl_addr_inside_object
+ *fill*         0x000000000001dbd3        0xd 
+ .text          0x000000000001dbe0      0x1e4 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(sigaction.os)
+                0x000000000001dc00                __libc_sigaction
+                0x000000000001dc00                __GI___libc_sigaction
+                0x000000000001dda0                sigaction
+                0x000000000001dda0                __GI___sigaction
+                0x000000000001dda0                __sigaction
+ *fill*         0x000000000001ddc4        0xc 
+ .text          0x000000000001ddd0       0x21 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setitimer.os)
+                0x000000000001ddd0                setitimer
+                0x000000000001ddd0                __setitimer
+                0x000000000001ddd0                __GI_setitimer
+                0x000000000001ddd0                __GI___setitimer
+ *fill*         0x000000000001ddf1        0xf 
+ .text          0x000000000001de00      0x593 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(forward.os)
+                0x000000000001de00                pthread_equal
+                0x000000000001de30                pthread_attr_destroy
+                0x000000000001de60                pthread_attr_init@@GLIBC_2.2.5
+                0x000000000001de60                __pthread_attr_init_2_1
+                0x000000000001de90                pthread_attr_getdetachstate
+                0x000000000001dec0                pthread_attr_setdetachstate
+                0x000000000001def0                pthread_attr_getinheritsched
+                0x000000000001df20                pthread_attr_setinheritsched
+                0x000000000001df50                pthread_attr_getschedparam
+                0x000000000001df80                pthread_attr_setschedparam
+                0x000000000001dfb0                pthread_attr_getschedpolicy
+                0x000000000001dfe0                pthread_attr_setschedpolicy
+                0x000000000001e010                pthread_attr_getscope
+                0x000000000001e040                pthread_attr_setscope
+                0x000000000001e070                pthread_condattr_destroy
+                0x000000000001e0a0                pthread_condattr_init
+                0x000000000001e0d0                pthread_cond_broadcast@@GLIBC_2.3.2
+                0x000000000001e0d0                __pthread_cond_broadcast
+                0x000000000001e100                pthread_cond_destroy@@GLIBC_2.3.2
+                0x000000000001e100                __pthread_cond_destroy
+                0x000000000001e130                pthread_cond_init@@GLIBC_2.3.2
+                0x000000000001e130                __pthread_cond_init
+                0x000000000001e160                pthread_cond_signal@@GLIBC_2.3.2
+                0x000000000001e160                __pthread_cond_signal
+                0x000000000001e190                pthread_cond_wait@@GLIBC_2.3.2
+                0x000000000001e190                __pthread_cond_wait
+                0x000000000001e1c0                pthread_cond_timedwait@@GLIBC_2.3.2
+                0x000000000001e1c0                __pthread_cond_timedwait
+                0x000000000001e1f0                pthread_exit
+                0x000000000001e1f0                __pthread_exit
+                0x000000000001e220                pthread_getschedparam
+                0x000000000001e250                pthread_setschedparam
+                0x000000000001e280                pthread_mutex_destroy
+                0x000000000001e2b0                pthread_mutex_init
+                0x000000000001e2e0                pthread_mutex_lock
+                0x000000000001e310                pthread_mutex_unlock
+                0x000000000001e340                __pthread_setcancelstate
+                0x000000000001e340                pthread_setcancelstate
+                0x000000000001e370                pthread_setcanceltype
+ *fill*         0x000000000001e393        0xd 
+ .text          0x000000000001e3a0      0x26a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(exit.os)
+                0x000000000001e3a0                __run_exit_handlers
+                0x000000000001e5f0                __GI_exit
+                0x000000000001e5f0                exit
+ *fill*         0x000000000001e60a        0x6 
+ .text          0x000000000001e610      0x21c /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_atexit.os)
+                0x000000000001e610                __new_exitfn
+                0x000000000001e730                __internal_atexit
+                0x000000000001e820                __cxa_atexit
+                0x000000000001e820                __GI___cxa_atexit
+ *fill*         0x000000000001e82c        0x4 
+ .text          0x000000000001e830      0x135 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_thread_atexit_impl.os)
+                0x000000000001e830                __cxa_thread_atexit_impl
+                0x000000000001e900                __GI___call_tls_dtors
+                0x000000000001e900                __call_tls_dtors
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000      0x172
+ .text.unlikely
+                0x0000000000000000      0x172 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+
+.text.ssse3     0x0000000000000000     0xd5e3
+ .text.ssse3    0x0000000000000000     0x1259 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-ssse3.os)
+                0x0000000000000000                __GI___strcmp_ssse3
+                0x0000000000000000                __strcmp_ssse3
+ *fill*         0x0000000000001259        0x7 
+ .text.ssse3    0x0000000000001260     0x29e6 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3.os)
+                0x0000000000001260                __mempcpy_chk_ssse3
+                0x0000000000001270                __mempcpy_ssse3
+                0x0000000000001280                __memcpy_chk_ssse3
+                0x0000000000001290                __memcpy_ssse3
+ *fill*         0x0000000000003c46        0xa 
+ .text.ssse3    0x0000000000003c50     0x2b77 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3.os)
+                0x0000000000003c50                __memmove_chk_ssse3
+                0x0000000000003c60                __memmove_ssse3
+ *fill*         0x00000000000067c7        0x9 
+ .text.ssse3    0x00000000000067d0     0x2ae6 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3-back.os)
+                0x00000000000067d0                __mempcpy_chk_ssse3_back
+                0x00000000000067e0                __mempcpy_ssse3_back
+                0x00000000000067f0                __memcpy_chk_ssse3_back
+                0x0000000000006800                __memcpy_ssse3_back
+ *fill*         0x00000000000092b6        0xa 
+ .text.ssse3    0x00000000000092c0     0x2b16 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3-back.os)
+                0x00000000000092c0                __memmove_chk_ssse3_back
+                0x00000000000092d0                __memmove_ssse3_back
+ *fill*         0x000000000000bdd6        0xa 
+ .text.ssse3    0x000000000000bde0     0x1803 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-ssse3.os)
+                0x000000000000bde0                __stpcpy_ssse3
+
+.text.avx       0x0000000000000000     0x14eb
+ .text.avx      0x0000000000000000      0x2cd /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-avx2.os)
+                0x0000000000000000                __memchr_avx2
+ *fill*         0x00000000000002cd        0x3 
+ .text.avx      0x00000000000002d0      0x13d /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-avx2.os)
+                0x00000000000002d0                __rawmemchr_avx2
+ *fill*         0x000000000000040d        0x3 
+ .text.avx      0x0000000000000410      0x3d4 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-avx2-movbe.os)
+                0x0000000000000410                __memcmp_avx2_movbe
+ *fill*         0x00000000000007e4        0xc 
+ .text.avx      0x00000000000007f0      0x224 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-avx2.os)
+                0x00000000000007f0                __strchr_avx2
+ *fill*         0x0000000000000a14        0xc 
+ .text.avx      0x0000000000000a20      0x190 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-avx2.os)
+                0x0000000000000a20                __strlen_avx2
+ .text.avx      0x0000000000000bb0      0x320 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-avx2.os)
+                0x0000000000000bb0                __strnlen_avx2
+ .text.avx      0x0000000000000ed0      0x464 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx-unaligned-erms.os)
+                0x0000000000000ed0                __mempcpy_chk_avx_unaligned
+                0x0000000000000ee0                __mempcpy_avx_unaligned
+                0x0000000000000ef0                __memcpy_chk_avx_unaligned
+                0x0000000000000ef0                __memmove_chk_avx_unaligned
+                0x0000000000000f00                __memcpy_avx_unaligned
+                0x0000000000000f00                __memmove_avx_unaligned
+                0x0000000000000f30                __mempcpy_chk_avx_unaligned_erms
+                0x0000000000000f40                __mempcpy_avx_unaligned_erms
+                0x0000000000000f50                __memmove_chk_avx_unaligned_erms
+                0x0000000000000f50                __memcpy_chk_avx_unaligned_erms
+                0x0000000000000f60                __memcpy_avx_unaligned_erms
+                0x0000000000000f60                __memmove_avx_unaligned_erms
+ *fill*         0x0000000000001334        0xc 
+ .text.avx      0x0000000000001340      0x1ab /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx2-unaligned-erms.os)
+                0x0000000000001340                __wmemset_chk_avx2_unaligned
+                0x0000000000001350                __wmemset_avx2_unaligned
+                0x0000000000001370                __memset_chk_avx2_unaligned
+                0x0000000000001380                __memset_avx2_unaligned
+                0x00000000000013b0                __memset_avx2_erms
+                0x00000000000013d0                __memset_chk_avx2_unaligned_erms
+                0x00000000000013e0                __memset_avx2_unaligned_erms
+
+.text.sse4.1    0x0000000000000000     0x163e
+ .text.sse4.1   0x0000000000000000     0x163e /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse4.os)
+                0x0000000000000000                __memcmp_sse4_1
+
+.text.avx512    0x0000000000000000     0x1191
+ .text.avx512   0x0000000000000000      0x768 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+                0x0000000000000000                __mempcpy_chk_avx512_no_vzeroupper
+                0x0000000000000010                __mempcpy_avx512_no_vzeroupper
+                0x0000000000000020                __memcpy_chk_avx512_no_vzeroupper
+                0x0000000000000020                __memmove_chk_avx512_no_vzeroupper
+                0x0000000000000030                __memcpy_avx512_no_vzeroupper
+                0x0000000000000030                __memmove_avx512_no_vzeroupper
+ *fill*         0x0000000000000768        0x8 
+ .text.avx512   0x0000000000000770      0x280 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-no-vzeroupper.os)
+                0x0000000000000770                __memset_chk_avx512_no_vzeroupper
+                0x0000000000000780                __memset_avx512_no_vzeroupper
+ .text.avx512   0x00000000000009f0      0x598 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-unaligned-erms.os)
+                0x00000000000009f0                __mempcpy_chk_avx512_unaligned
+                0x0000000000000a00                __mempcpy_avx512_unaligned
+                0x0000000000000a10                __memcpy_chk_avx512_unaligned
+                0x0000000000000a10                __memmove_chk_avx512_unaligned
+                0x0000000000000a20                __memmove_avx512_unaligned
+                0x0000000000000a20                __memcpy_avx512_unaligned
+                0x0000000000000a60                __mempcpy_chk_avx512_unaligned_erms
+                0x0000000000000a70                __mempcpy_avx512_unaligned_erms
+                0x0000000000000a80                __memcpy_chk_avx512_unaligned_erms
+                0x0000000000000a80                __memmove_chk_avx512_unaligned_erms
+                0x0000000000000a90                __memmove_avx512_unaligned_erms
+                0x0000000000000a90                __memcpy_avx512_unaligned_erms
+ *fill*         0x0000000000000f88        0x8 
+ .text.avx512   0x0000000000000f90      0x201 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-unaligned-erms.os)
+                0x0000000000000f90                __wmemset_chk_avx512_unaligned
+                0x0000000000000fa0                __wmemset_avx512_unaligned
+                0x0000000000000fc0                __memset_chk_avx512_unaligned
+                0x0000000000000fd0                __memset_avx512_unaligned
+                0x0000000000001010                __memset_avx512_erms
+                0x0000000000001030                __memset_chk_avx512_unaligned_erms
+                0x0000000000001040                __memset_avx512_unaligned_erms
+
+.text.atom      0x0000000000000000     0x1a83
+ .text.atom     0x0000000000000000      0x315 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2-no-bsf.os)
+                0x0000000000000000                __strchr_sse2_no_bsf
+ *fill*         0x0000000000000315        0xb 
+ .text.atom     0x0000000000000320     0x1763 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-ssse3.os)
+                0x0000000000000320                __memcmp_ssse3
+
+.text.sse4.2    0x0000000000000000      0x131
+ .text.sse4.2   0x0000000000000000      0x131 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-c.os)
+                0x0000000000000000                __strcspn_sse42
+
+.text.startup   0x0000000000000000      0x497
+ .text.startup  0x0000000000000000      0x497 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+
+.text.compat    0x0000000000000000      0x15f
+ .text.compat   0x0000000000000000      0x15f /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(forward.os)
+                0x0000000000000000                pthread_cond_broadcast@GLIBC_2.2.5
+                0x0000000000000000                __pthread_cond_broadcast_2_0
+                0x0000000000000030                __pthread_cond_destroy_2_0
+                0x0000000000000030                pthread_cond_destroy@GLIBC_2.2.5
+                0x0000000000000060                __pthread_cond_init_2_0
+                0x0000000000000060                pthread_cond_init@GLIBC_2.2.5
+                0x0000000000000090                __pthread_cond_signal_2_0
+                0x0000000000000090                pthread_cond_signal@GLIBC_2.2.5
+                0x00000000000000c0                pthread_cond_wait@GLIBC_2.2.5
+                0x00000000000000c0                __pthread_cond_wait_2_0
+                0x00000000000000f0                pthread_cond_timedwait@GLIBC_2.2.5
+                0x00000000000000f0                __pthread_cond_timedwait_2_0
+                0x0000000000000120                __pthread_unwind
+
+.fini
+ *(SORT_NONE(.fini))
+
+.rodata         0x0000000000000000     0x1180
+ *(.rodata)
+ .rodata        0x0000000000000000      0xd68 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+                0x0000000000000cc0                __GI__itoa_lower_digits
+                0x0000000000000cc0                _itoa_lower_digits
+ .rodata        0x0000000000000d68       0x40 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2.os)
+ .rodata        0x0000000000000da8       0x40 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-ssse3.os)
+ .rodata        0x0000000000000de8       0x80 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2-unaligned.os)
+ *fill*         0x0000000000000e68        0x8 
+ .rodata        0x0000000000000e70       0x1f /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(varshift.os)
+                0x0000000000000e70                ___m128i_shift_right
+ *fill*         0x0000000000000e8f       0x11 
+ .rodata        0x0000000000000ea0      0x2e0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+
+.rodata.str1.1  0x0000000000000000     0x125f
+ .rodata.str1.1
+                0x0000000000000000     0x11fb /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+ .rodata.str1.1
+                0x00000000000011fb       0x14 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(check_fds.os)
+ .rodata.str1.1
+                0x000000000000120f       0x39 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+ .rodata.str1.1
+                0x0000000000001248       0x17 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_atexit.os)
+
+.rodata.str1.8  0x0000000000000000     0x2705
+ .rodata.str1.8
+                0x0000000000000000     0x26e1 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+ *fill*         0x00000000000026e1        0x7 
+ .rodata.str1.8
+                0x00000000000026e8        0xb /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+ *fill*         0x00000000000026f3        0x5 
+ .rodata.str1.8
+                0x00000000000026f8        0xd /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_atexit.os)
+
+.rodata.str1.16
+                0x0000000000000000      0x371
+ .rodata.str1.16
+                0x0000000000000000      0x356 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+ *fill*         0x0000000000000356        0xa 
+ .rodata.str1.16
+                0x0000000000000360       0x11 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+
+.rodata.cst16   0x0000000000000000       0x20
+ .rodata.cst16  0x0000000000000000       0x20 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+
+.rodata.cst4    0x0000000000000000        0x4
+ .rodata.cst4   0x0000000000000000        0x4 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+
+.rodata.str1.32
+                0x0000000000000000       0x3b
+ .rodata.str1.32
+                0x0000000000000000       0x3b /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+
+.rodata.sse4.1  0x0000000000000000      0x140
+ .rodata.sse4.1
+                0x0000000000000000      0x140 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse4.os)
+
+.rodata.ssse3   0x0000000000000000      0xd80
+ .rodata.ssse3  0x0000000000000000      0x1c0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3.os)
+ .rodata.ssse3  0x00000000000001c0      0x1c0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3.os)
+ .rodata.ssse3  0x0000000000000380      0x500 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3-back.os)
+ .rodata.ssse3  0x0000000000000880      0x500 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3-back.os)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x427c
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000     0x24c8 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+                                       0x250c (size before relaxing)
+ *fill*         0x00000000000024c8        0x0 
+ .eh_frame      0x00000000000024c8       0x68 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(check_fds.os)
+ .eh_frame      0x0000000000002530       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setjmp.os)
+ .eh_frame      0x0000000000002560       0x48 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(__longjmp.os)
+ .eh_frame      0x00000000000025a8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr.os)
+ .eh_frame      0x00000000000025d8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp.os)
+ .eh_frame      0x0000000000002608       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn.os)
+ .eh_frame      0x0000000000002638       0x50 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strdup.os)
+ .eh_frame      0x0000000000002688       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen.os)
+ .eh_frame      0x00000000000026b8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen.os)
+ .eh_frame      0x00000000000026e8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr.os)
+ .eh_frame      0x0000000000002718       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp.os)
+ .eh_frame      0x0000000000002748       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove.os)
+ .eh_frame      0x0000000000002778       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset.os)
+ .eh_frame      0x00000000000027a8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os)
+ .eh_frame      0x00000000000027d8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy.os)
+ .eh_frame      0x0000000000002808       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy.os)
+ .eh_frame      0x0000000000002838       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr.os)
+ .eh_frame      0x0000000000002868       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2.os)
+ .eh_frame      0x0000000000002898       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2-unaligned.os)
+ .eh_frame      0x00000000000028c8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-ssse3.os)
+ .eh_frame      0x00000000000028f8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-sse2.os)
+ .eh_frame      0x0000000000002928       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-sse2.os)
+ .eh_frame      0x0000000000002958       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-avx2.os)
+ .eh_frame      0x0000000000002988       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-avx2.os)
+ .eh_frame      0x00000000000029b8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse2.os)
+ .eh_frame      0x00000000000029e8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-avx2-movbe.os)
+ .eh_frame      0x0000000000002a18       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse4.os)
+ .eh_frame      0x0000000000002a48       0x68 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3.os)
+ .eh_frame      0x0000000000002ab0       0x40 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3.os)
+ .eh_frame      0x0000000000002af0       0x68 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3-back.os)
+ .eh_frame      0x0000000000002b58       0x40 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3-back.os)
+ .eh_frame      0x0000000000002b98       0x68 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .eh_frame      0x0000000000002c00       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2.os)
+ .eh_frame      0x0000000000002c30       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-avx2.os)
+ .eh_frame      0x0000000000002c60       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-sse2.os)
+ .eh_frame      0x0000000000002c90       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-sse2.os)
+ .eh_frame      0x0000000000002cc0       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-avx2.os)
+ .eh_frame      0x0000000000002cf0       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-avx2.os)
+ .eh_frame      0x0000000000002d20       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2.os)
+ .eh_frame      0x0000000000002d50       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-ssse3.os)
+ .eh_frame      0x0000000000002d80       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .eh_frame      0x0000000000002db0       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2-no-bsf.os)
+ .eh_frame      0x0000000000002de0       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-ssse3.os)
+ .eh_frame      0x0000000000002e10       0x38 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-sse2.os)
+ .eh_frame      0x0000000000002e48       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-c.os)
+ .eh_frame      0x0000000000002e78       0x40 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ .eh_frame      0x0000000000002eb8      0x108 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-sse2-unaligned-erms.os)
+ .eh_frame      0x0000000000002fc0       0xb8 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .eh_frame      0x0000000000003078       0xb8 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ .eh_frame      0x0000000000003130       0xd0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-sse2-unaligned-erms.os)
+ .eh_frame      0x0000000000003200       0xa8 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .eh_frame      0x00000000000032a8       0xa8 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-unaligned-erms.os)
+ .eh_frame      0x0000000000003350      0x198 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+ .eh_frame      0x00000000000034e8       0x38 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(closedir.os)
+ .eh_frame      0x0000000000003520       0x68 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(readdir.os)
+ .eh_frame      0x0000000000003588       0x40 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rewinddir.os)
+ .eh_frame      0x00000000000035c8       0x68 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getdents.os)
+ .eh_frame      0x0000000000003630       0x50 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fdopendir.os)
+ .eh_frame      0x0000000000003680       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(uname.os)
+ .eh_frame      0x00000000000036b0       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(_exit.os)
+ .eh_frame      0x00000000000036e0       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getpid.os)
+ .eh_frame      0x0000000000003710       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(xstat.os)
+ .eh_frame      0x0000000000003740       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fxstat.os)
+ .eh_frame      0x0000000000003770       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lxstat.os)
+ .eh_frame      0x00000000000037a0       0x68 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(open64.os)
+ .eh_frame      0x0000000000003808       0x70 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(openat64.os)
+ .eh_frame      0x0000000000003878       0x68 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(read.os)
+ .eh_frame      0x00000000000038e0       0x68 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(write.os)
+ .eh_frame      0x0000000000003948       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lseek64.os)
+ .eh_frame      0x0000000000003978       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(access.os)
+ .eh_frame      0x00000000000039a8       0x68 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fcntl.os)
+ .eh_frame      0x0000000000003a10       0x58 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(close.os)
+ .eh_frame      0x0000000000003a68       0x70 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mmap64.os)
+ .eh_frame      0x0000000000003ad8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(munmap.os)
+ .eh_frame      0x0000000000003b08       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mprotect.os)
+ .eh_frame      0x0000000000003b38       0x80 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(profil.os)
+ .eh_frame      0x0000000000003bb8       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(prof-freq.os)
+ .eh_frame      0x0000000000003be8       0x60 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-lowlevellock.os)
+ .eh_frame      0x0000000000003c48       0x40 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-cancellation.os)
+ .eh_frame      0x0000000000003c88       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(dl-addr-obj.os)
+ .eh_frame      0x0000000000003cb8       0xe0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(sigaction.os)
+                                         0xe8 (size before relaxing)
+ .eh_frame      0x0000000000003d98       0x30 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setitimer.os)
+ .eh_frame      0x0000000000003dc8      0x300 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(forward.os)
+ .eh_frame      0x00000000000040c8       0x88 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(exit.os)
+ .eh_frame      0x0000000000004150       0xb0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_atexit.os)
+ .eh_frame      0x0000000000004200       0x7c /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_thread_atexit_impl.os)
+                                         0x80 (size before relaxing)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss           0x0000000000000000       0x18
+ *(.tbss)
+ .tbss          0x0000000000000000        0x4 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(errno.os)
+                0x0000000000000000                errno
+                0x0000000000000000                __libc_errno
+ *fill*         0x0000000000000004        0x4 
+ .tbss          0x0000000000000008       0x10 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+ *(.igot)
+
+.got.plt
+ *(.got.plt)
+ *(.igot.plt)
+
+.data           0x0000000000000000      0xfd0
+ *(.data)
+ .data          0x0000000000000000      0xf90 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+                0x0000000000000000                _rtld_global
+                0x0000000000000000                _rtld_local
+                0x0000000000000f78                left_mem
+                0x0000000000000f80                end_mem
+                0x0000000000000f88                start_mem
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(check_fds.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(errno.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setjmp.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(__longjmp.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strdup.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2-unaligned.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-ssse3.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-sse2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-sse2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-avx2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-avx2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-avx2-movbe.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse4.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3-back.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3-back.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-avx2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-sse2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-sse2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-avx2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-avx2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-ssse3.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2-no-bsf.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-ssse3.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-sse2.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-c.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(varshift.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-sse2-unaligned-erms.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-sse2-unaligned-erms.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .data          0x0000000000000f90        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-unaligned-erms.os)
+ .data          0x0000000000000f90       0x40 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+                0x0000000000000f90                __x86_raw_shared_cache_size
+                0x0000000000000f98                __x86_raw_shared_cache_size_half
+                0x0000000000000fa0                __x86_shared_cache_size
+                0x0000000000000fa8                __x86_shared_cache_size_half
+                0x0000000000000fb0                __x86_raw_data_cache_size
+                0x0000000000000fb8                __x86_raw_data_cache_size_half
+                0x0000000000000fc0                __x86_data_cache_size
+                0x0000000000000fc8                __x86_data_cache_size_half
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(closedir.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(readdir.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rewinddir.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getdents.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fdopendir.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(uname.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(_exit.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getpid.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(environ.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(xstat.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fxstat.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lxstat.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(open64.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(openat64.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(read.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(write.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lseek64.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(access.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fcntl.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(close.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mmap64.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(munmap.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mprotect.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(profil.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(prof-freq.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-lowlevellock.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-cancellation.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc_multiple_threads.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(dl-addr-obj.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(sigaction.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setitimer.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(forward.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(exit.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_atexit.os)
+ .data          0x0000000000000fd0        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.data.rel.ro    0x0000000000000000      0x7e4
+ .data.rel.ro   0x0000000000000000      0x7e4 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+                0x00000000000000b0                __pointer_chk_guard_local
+                0x00000000000000b8                _dl_skip_args
+                0x00000000000000c0                __GI__dl_argv
+                0x00000000000000c0                _dl_argv
+                0x00000000000000c8                _dl_argc
+                0x00000000000000e0                _rtld_global_ro
+                0x00000000000000e0                _rtld_local_ro
+                0x00000000000002e0                __stack_prot
+                0x00000000000007d0                _dl_random
+                0x00000000000007d8                __libc_stack_end
+                0x00000000000007d8                __GI___libc_stack_end
+                0x00000000000007e0                __GI___libc_enable_secure
+                0x00000000000007e0                __libc_enable_secure
+
+.init_array     0x0000000000000000        0x8
+ .init_array    0x0000000000000000        0x8 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+
+.data.rel.local
+                0x0000000000000000        0x8
+ .data.rel.local
+                0x0000000000000000        0x8 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_atexit.os)
+                0x0000000000000000                __exit_funcs
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000      0x630
+ *(.bss)
+ .bss           0x0000000000000000      0x118 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+                0x00000000000000e0                __libc_multiple_libcs
+                0x0000000000000110                __curbrk
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(check_fds.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(errno.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setjmp.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(__longjmp.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strdup.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2-unaligned.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-ssse3.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-avx2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-avx2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-avx2-movbe.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse4.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3-back.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3-back.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-avx2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-avx2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-avx2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-ssse3.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2-no-bsf.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-ssse3.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-sse2.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-c.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(varshift.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-sse2-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-sse2-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-unaligned-erms.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(closedir.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(readdir.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rewinddir.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getdents.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fdopendir.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(uname.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(_exit.os)
+ .bss           0x0000000000000118        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getpid.os)
+ .bss           0x0000000000000118        0x8 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(environ.os)
+                0x0000000000000118                _environ
+                0x0000000000000118                __environ
+                0x0000000000000118                environ
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(xstat.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fxstat.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lxstat.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(open64.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(openat64.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(read.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(write.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lseek64.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(access.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fcntl.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(close.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mmap64.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(munmap.os)
+ .bss           0x0000000000000120        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mprotect.os)
+ .bss           0x0000000000000120       0xe0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(profil.os)
+ .bss           0x0000000000000200        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(prof-freq.os)
+ .bss           0x0000000000000200        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-lowlevellock.os)
+ .bss           0x0000000000000200        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-cancellation.os)
+ .bss           0x0000000000000200        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc_multiple_threads.os)
+ .bss           0x0000000000000200        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(dl-addr-obj.os)
+ .bss           0x0000000000000200        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(sigaction.os)
+ .bss           0x0000000000000200        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setitimer.os)
+ .bss           0x0000000000000200        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(forward.os)
+ .bss           0x0000000000000200        0x1 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(exit.os)
+                0x0000000000000200                __exit_funcs_done
+ *fill*         0x0000000000000201       0x1f 
+ .bss           0x0000000000000220      0x410 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_atexit.os)
+ .bss           0x0000000000000630        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_thread_atexit_impl.os)
+ *(COMMON)
+ COMMON         0x0000000000000630        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+ COMMON         0x0000000000000630        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+ COMMON         0x0000000000000630        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc_multiple_threads.os)
+ COMMON         0x0000000000000630        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(forward.os)
+ COMMON         0x0000000000000630        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_atexit.os)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss)
+ *(LARGE_COMMON)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0xdf2
+ *(.comment)
+ .comment       0x0000000000000000      0x63c /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+ .comment       0x000000000000063c       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(check_fds.os)
+ .comment       0x0000000000000666       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(errno.os)
+ .comment       0x0000000000000690       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr.os)
+ .comment       0x00000000000006ba       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp.os)
+ .comment       0x00000000000006e4       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn.os)
+ .comment       0x000000000000070e       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strdup.os)
+ .comment       0x0000000000000738       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen.os)
+ .comment       0x0000000000000762       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen.os)
+ .comment       0x000000000000078c       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr.os)
+ .comment       0x00000000000007b6       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp.os)
+ .comment       0x00000000000007e0       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove.os)
+ .comment       0x000000000000080a       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset.os)
+ .comment       0x0000000000000834       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os)
+ .comment       0x000000000000085e       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy.os)
+ .comment       0x0000000000000888       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy.os)
+ .comment       0x00000000000008b2       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr.os)
+ .comment       0x00000000000008dc       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-c.os)
+ .comment       0x0000000000000906       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(varshift.os)
+ .comment       0x0000000000000930       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+ .comment       0x000000000000095a       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(closedir.os)
+ .comment       0x0000000000000984       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(readdir.os)
+ .comment       0x00000000000009ae       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rewinddir.os)
+ .comment       0x00000000000009d8       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getdents.os)
+ .comment       0x0000000000000a02       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fdopendir.os)
+ .comment       0x0000000000000a2c       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(_exit.os)
+ .comment       0x0000000000000a56       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(environ.os)
+ .comment       0x0000000000000a80       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(xstat.os)
+ .comment       0x0000000000000aaa       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fxstat.os)
+ .comment       0x0000000000000ad4       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lxstat.os)
+ .comment       0x0000000000000afe       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(open64.os)
+ .comment       0x0000000000000b28       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(openat64.os)
+ .comment       0x0000000000000b52       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(read.os)
+ .comment       0x0000000000000b7c       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(write.os)
+ .comment       0x0000000000000ba6       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lseek64.os)
+ .comment       0x0000000000000bd0       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(access.os)
+ .comment       0x0000000000000bfa       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fcntl.os)
+ .comment       0x0000000000000c24       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(close.os)
+ .comment       0x0000000000000c4e       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mmap64.os)
+ .comment       0x0000000000000c78       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(profil.os)
+ .comment       0x0000000000000ca2       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(prof-freq.os)
+ .comment       0x0000000000000ccc       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc_multiple_threads.os)
+ .comment       0x0000000000000cf6       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(dl-addr-obj.os)
+ .comment       0x0000000000000d20       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(sigaction.os)
+ .comment       0x0000000000000d4a       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(forward.os)
+ .comment       0x0000000000000d74       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(exit.os)
+ .comment       0x0000000000000d9e       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_atexit.os)
+ .comment       0x0000000000000dc8       0x2a /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/elf/dl-allobjs.os
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(check_fds.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(errno.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(__longjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strdup.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mempcpy.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-sse2-unaligned.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcmp-ssse3.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memchr-avx2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rawmemchr-avx2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-avx2-movbe.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-sse4.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcpy-ssse3-back.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-ssse3-back.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-no-vzeroupper.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-avx2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strlen-avx2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strnlen-avx2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-ssse3.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(stpcpy-sse2-unaligned.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strchr-sse2-no-bsf.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memcmp-ssse3.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(strcspn-c.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(varshift.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-no-vzeroupper.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-sse2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memmove-avx512-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-sse2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(memset-avx512-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cacheinfo.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(closedir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(readdir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(rewinddir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getdents.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fdopendir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(uname.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(_exit.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(getpid.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(environ.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(xstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fxstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lxstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(open64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(openat64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(read.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(write.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lseek64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(access.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(fcntl.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(close.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mmap64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(munmap.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(mprotect.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(profil.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(prof-freq.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-lowlevellock.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc-cancellation.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(libc_multiple_threads.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(dl-addr-obj.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(sigaction.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(setitimer.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(forward.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(exit.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_atexit.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(cxa_thread_atexit_impl.os)
+
+.gnu.warning.llseek
+                0x0000000000000000       0x3f
+ .gnu.warning.llseek
+                0x0000000000000000       0x3f /home/beverly/Documents/glibc-2.27/build-glibc/libc_pic.a(lseek64.os)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/beverly/Documents/glibc-2.27/build-glibc/elf/librtld.map.o elf64-x86-64)

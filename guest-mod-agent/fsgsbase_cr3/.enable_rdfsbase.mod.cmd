@@ -1,0 +1,1 @@
+cmd_/home/beverly/Documents/test_ker/fsgsbase_cr3/enable_rdfsbase.mod := { echo  /home/beverly/Documents/test_ker/fsgsbase_cr3/enable_rdfsbase.o;  echo; } > /home/beverly/Documents/test_ker/fsgsbase_cr3/enable_rdfsbase.mod
