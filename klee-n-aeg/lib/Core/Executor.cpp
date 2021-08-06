@@ -4059,6 +4059,32 @@ void Executor::executeMemoryOperation(ExecutionState &state,
             //     return;
             // }
             /* /Jiaqi */
+            
+            /* Jiaqi, overflow error detected. states should contains all state
+             * in seedMap (keep them) and the others (terminate them). */
+            if (OnlySeed)
+            {
+                printf ("first overflow error detected, try to exit seed mode. \n");
+                for (ExecutionState *es : states)
+                {
+                    std::map< ExecutionState*, std::vector<SeedInfo> >::iterator it = seedMap.find(&state);
+                    if (it!=seedMap.end()) { 
+                        printf("for state %p in seedMap, keep it in states, but remove its entry in seedMap. \n", it->first);
+                        seedMap.erase(it);
+                    }
+                    else
+                    {
+                        printf("for state: %p not in seedMap, terminate it. \n", es);
+                        terminateState(*es);
+                    }
+                }
+                /* disable OnlySeed */
+                OnlySeed.setValue(false);
+                if(seedMap.size())
+                    printf("!!!!!!!!!!!!!!! error, seedMap is not empty after adjusting state in states. \n");
+            }
+            /* /Jiaqi */
+
             /* Jiaqi */ 
             ConstantExpr *CE = dyn_cast<ConstantExpr>(address);// address must be a constant Expr, otherwise it is caught as a symbolic read/write operation
             uint64_t addr = CE->getZExtValue();
