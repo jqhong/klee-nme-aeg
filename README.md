@@ -35,6 +35,11 @@ modify the customized linker path in compile.sh, *-Wl,--rpath=/path/to/your/cust
 ```
 ./compile.sh
 ```
+change line 1154 in klee-n-aeg/tool/klee/main.cpp 
+```
+char nme_path[] = "path/to/nme-related"
+```
+
 # Test Klee-nme
 in your guest VM
 ```
