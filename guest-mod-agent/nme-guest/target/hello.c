@@ -22,6 +22,19 @@ int main (void)
     printf ("nme: %p. \n", nme);
 
     void* ptr = malloc (0x10);
+    int i;
+    unsigned long tt = 0;
+    for (i = 0; i < 10; i ++)
+    {
+        // tt = *((unsigned long*) ptr);
+        *((unsigned long*) ptr) = tt;
+        ptr += 0x1000;
+        printf ("init mapping for heap page %p. tt: %lx. \n", ptr, tt);
+    }
+    // ptr = sbrk(0);
+    // printf ("orig heap break: %p. \n", ptr);
+    // ptr = sbrk(0x8000);
+    // printf ("new heap break: %p. \n", ptr);
     // void* a = malloc (0x10);
     // void* b = malloc (0x10);
     // void* c = malloc (0x10);
