@@ -15,6 +15,12 @@ cd build-glibc/
 make -j6 CFLAGS="-O2 -U_FORTIFY_SOURCE -fno-stack-protector"
 ```
 # Deploy guest VM kernel module and nme guest agent
+
+disable pti in guest vm by adding 'nopti' after 'quite splash' in 
+```
+sudo vim /etc/default/grub
+```
+
 copy guest-mod-agent/* into your guest VM
 ```
 cd ../
