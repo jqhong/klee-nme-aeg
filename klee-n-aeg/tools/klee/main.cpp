@@ -1241,7 +1241,23 @@ int main(int argc, char **argv, char **envp) {
     // heap_idx = 0;
     /* / */
     
-    req_dump_fp = fopen("/home/beverly/Documents/test_user/laucher/req_dump.txt", "w+");
+    char dump_p[] = "launcher/req_dump.txt";
+    char l_path[100];
+    path_len = strlen(nme_path) + strlen(dump_p);
+    if (path_len >= 100)
+    {
+        printf ("no sufficient space for nme agent path. path len: %d. exit child. \n", path_len);
+        exit(0);
+    }
+    strcpy(l_path, nme_path);
+    strcat(l_path, dump_p);
+    // req_dump_fp = fopen("/home/beverly/Documents/test_user/laucher/req_dump.txt", "w+");
+    req_dump_fp = fopen(l_path, "w+");
+    if (!req_dump_fp)
+    {
+	 printf ("open dump file failed. \n");
+	 exit(0);
+    }
     /* wait until onsite mode to setup */
     // kn_indicator->flag = 4;
     // printf ("klee waits onsite initialization. kn_indicator->flag, addr: %p, value: %d..\n", &kn_indicator->flag, kn_indicator->flag);
